@@ -1,56 +1,67 @@
 * {
-    /* margin: 0; */
-    padding: 0;
-    box-sizing: border-box;
-    }
-    body {
-        background-image: url(https://media.istockphoto.com/id/484096068/photo/wooden-texture-background.jpg?b=1&s=170667a&w=0&k=20&c=RWLEm-1NkqPzEgrX0zRid7WHtclBQBmI4RQZlouc02g=);
-        color: white;
-           }
-.container{
-    width: 700px;
-    margin: auto;
-} 
-h1{
-    display: inline-block;
+  /* margin: 0; */
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(https://media.istockphoto.com/id/484096068/photo/wooden-texture-background.jpg?b=1&s=170667a&w=0&k=20&c=RWLEm-1NkqPzEgrX0zRid7WHtclBQBmI4RQZlouc02g=);
+  color: white;
+}
+.container {
+  width: 700px;
+  margin: auto;
+}
+h1 {
+  display: inline-block;
 }
 .logo {
-    width: 100px;
+  width: 100px;
 }
 .gmail {
-    font-size: 30px;
+  font-size: 30px;
 }
 #search {
-    width: 300px;
+  width: 300px;
 }
-.unread {
-  background-color: orange; 
-border-radius: 50%;
-padding: 5px;
-} 
+.messages > span {
+  background-color: orange;
+  border-radius: 50%;
+  padding: 5px;
+}
 .row {
-    color: black;
-    background-color: grey;
-    border: 1px solid;
+  color: black;
+  background-color: grey;
+  border: 1px solid;
 }
-.row-left {
-    display: inline-block;
-    width: 30%;
-} 
-.row-right {
-    display: inline-block;
-    width: 68%;
+.email-subject {
+  width: 30%;
+}
+.email-body {
+  width: 68%;
+}
+.email-subject,
+.email-body {
+  display: inline-block;
+}
+.email-body::after {
+  content: " ...";
 }
 .read {
-    background-color: lightgray;
+  background-color: lightgray;
 }
 .unread-mail {
-    background-color: white;
+  background-color: white;
+}
+.star::after {
+  content: "\2605";
+}
+.star {
+  color: orange;
 }
 footer {
-    text-align: center;
-    color: black;
+  text-align: center;
+  color: black;
 }
-.credits {
-    font-size: 30px;
+footer > span {
+  font-size: 30px;
 }
