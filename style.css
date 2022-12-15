@@ -1,0 +1,56 @@
+* {
+    /* margin: 0; */
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body {
+        background-image: url(https://media.istockphoto.com/id/484096068/photo/wooden-texture-background.jpg?b=1&s=170667a&w=0&k=20&c=RWLEm-1NkqPzEgrX0zRid7WHtclBQBmI4RQZlouc02g=);
+        color: white;
+           }
+.container{
+    width: 700px;
+    margin: auto;
+} 
+h1{
+    display: inline-block;
+}
+.logo {
+    width: 100px;
+}
+.gmail {
+    font-size: 30px;
+}
+#search {
+    width: 300px;
+}
+.unread {
+  background-color: orange; 
+border-radius: 50%;
+padding: 5px;
+} 
+.row {
+    color: black;
+    background-color: grey;
+    border: 1px solid;
+}
+.row-left {
+    display: inline-block;
+    width: 30%;
+} 
+.row-right {
+    display: inline-block;
+    width: 68%;
+}
+.read {
+    background-color: lightgray;
+}
+.unread-mail {
+    background-color: white;
+}
+footer {
+    text-align: center;
+    color: black;
+}
+.credits {
+    font-size: 30px;
+}
